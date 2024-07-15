@@ -12,7 +12,6 @@ int main() {
         cin >> x >> val;
     // while (q--) {
     //     int x,val;
-    //     cin >> x >> val;
 
         if (x == 1) {
             if (nums.empty()) {
