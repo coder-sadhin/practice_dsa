@@ -32,6 +32,9 @@ int main() {
     for (int num : nums) {
         cout << num << " ";
     }
+    // for (int num : nums) {
+    //     cout << num << " ";
+    // }
 
     return 0;
 }
