@@ -6,6 +6,10 @@ int main() {
     cin >> q;
     vector<int> nums;
 
+//  int q;
+//     cin >> q;
+//     vector<int> nums;
+
     while (q--) {
         int x,val;
         cin >> x >> val;
