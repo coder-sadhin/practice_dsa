@@ -1,0 +1,1 @@
+{"name":"Local: vector_queries","url":"e:\\Phitron\\practice_problem\\level_one\\vector_queries.cpp","tests":[{"id":1721048172248,"input":"5\n1 3\n1 4\n1 5\n2 1\n2 8\n","output":"3 5 1 8 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\practice_problem\\level_one\\vector_queries.cpp","group":"local","local":true}
