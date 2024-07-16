@@ -5,9 +5,9 @@ class Stack{
     public:
         vector<int> nums;
 
-    // void push(int value) {
-    //     nums.push_back(value);
-    // }
+    void push(int value) {
+        nums.push_back(value);
+    }
 
     // int kthValue(int k, int n){
     //     if (k <= 0 || k > nums.size()) {
