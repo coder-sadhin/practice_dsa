@@ -9,12 +9,12 @@ class Stack{
         nums.push_back(value);
     }
 
-    // int kthValue(int k, int n){
-    //     if (k <= 0 || k > nums.size()) {
-    //         throw std::out_of_range("Invalid k value");
-    //     }
-    //     return nums[n-(n-k)-1];
-    // }
+    int kthValue(int k, int n){
+        if (k <= 0 || k > nums.size()) {
+            throw std::out_of_range("Invalid k value");
+        }
+        return nums[n-(n-k)-1];
+    }
 
 };
 
