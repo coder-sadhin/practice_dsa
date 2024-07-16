@@ -2,9 +2,11 @@
 using namespace std;
 
 void printReverse(vector<char> sv){
-    for(char c:sv){
-        cout<<c<<" ";
-    }
+    if(sv.size()<1) return;
+    char c=sv.back();
+    sv.pop_back();
+    cout<<c;
+    printReverse(sv);
 }
 
 int main() {
