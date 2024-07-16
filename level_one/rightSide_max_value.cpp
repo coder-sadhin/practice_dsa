@@ -13,7 +13,7 @@ void rightMaxValue(vector<int> nums, int p){
     }else{
         cout<<val<<" ";
     }
-    // rightMaxValue(nums,p+1);
+    rightMaxValue(nums,p+1);
 }
 
 int main() {
