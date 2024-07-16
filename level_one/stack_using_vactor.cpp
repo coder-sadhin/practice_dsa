@@ -28,9 +28,9 @@ int main() {
         cin >> value;
         s.push(value);
     }
-    // int k;
-    // cin>>k;
-    // cout<<s.kthValue(k,n)<<endl;
+    int k;
+    cin>>k;
+    cout<<s.kthValue(k,n)<<endl;
 
     return 0;
 }
