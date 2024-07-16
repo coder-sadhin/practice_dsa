@@ -26,7 +26,7 @@ int main() {
         cin >> value;
         nums.push_back(value);
     }
-    // rightMaxValue(nums,0);
+    rightMaxValue(nums,0);
 
     return 0;
 }
